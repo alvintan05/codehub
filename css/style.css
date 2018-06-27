@@ -1,0 +1,157 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ededed;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
+
+.navi{
+    height: 75px;
+    background-color: #3498db;
+}
+
+.navi .brand-logo{
+    margin-top: 7px;
+}
+
+.navi ul > li {
+    margin: 0 9px;
+}
+
+.navi ul > li > a.active{
+    color: #fff !important;
+}
+
+.navi ul > li >a.active:hover{
+    background-color: transparent;
+}
+
+.navi ul > li > a{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.navi ul > li > a:hover,
+.navi ul > li > a:focus:hover{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navi ul > li > a:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    background: #ffffff;
+    height: 4px;
+    width: 0;
+    left: 0;
+	transition:.5s all;
+}
+
+.navi ul > li > a:hover:before,
+.navi ul > li > a.active:before{
+	width: 100%;
+}
+
+.head{
+    width: 100%;
+    height: 598px;
+    background: url('../images/header4.jpg');
+}
+
+.head-depan{
+    width: 100%;
+    height: 598px;
+    background-color: #00000098;
+}
+
+.head-sub h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.head-sub p{
+    text-align: center;
+}
+
+.head-sub a{
+    font-size: 18px;
+}
+
+.btn-head{
+    margin-left: 280px;
+    margin-top: 80px;
+    background-color: #3498db;
+}
+
+.btn-head:hover{
+    background-color: rgb(43, 119, 170);
+}
+
+.btn-head:focus{
+    background-color: #3498DB;
+}
+
+/* Berita */
+#old-post-btn{
+    background: #3498DB;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+/* Bagian footer */
+
+  /* label color */
+  .input-field label {
+    color: white;
+}
+
+  /* valid color */
+  .input-field input[type=email].valid {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+  /* invalid color */
+  .input-field input[type=email].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+}
+
+#footer{
+  background: #3498DB;
+}
+
+#sign-up-btn{
+    background: #3490CE;
+    margin-left: 12px;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
