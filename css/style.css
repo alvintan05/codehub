@@ -237,3 +237,7 @@ p{
   text-align: justify;
   font-size: 15px;
 }
+
+#comment-form input, #comment-form textarea {
+  border: 1px solid grey;
+}
