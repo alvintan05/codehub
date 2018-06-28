@@ -155,3 +155,29 @@ p{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* DetailBerita1 */
+
+#konten-berita img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#author{
+  font-size: 14px;
+}
+
+#konten-berita p > i {
+  font-size: 14px;
+}
+
+#title{
+  font-size: 30px;
+  font-weight: 540;
+}
+
+.text-berita{
+  text-align: justify;
+  font-size: 15px;
+}
