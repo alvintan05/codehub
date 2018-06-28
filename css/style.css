@@ -118,6 +118,48 @@ p{
     background-color: #3498DB;
 }
 
+/* Beranda */
+.tulisan-gambar{
+    font-size: 18px;
+}
+
+.containers{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.tombol{
+    background: #3498db;
+    margin-left: 560px;
+}
+
+.tombol2{
+    background: #3498db;
+    margin-left: 550px;
+}
+
+.tombol:hover{
+    background: rgb(43, 119, 170);
+}
+
+.beranda-prf{
+    width: 100%;
+    min-height: 660px;
+    background-color: #3490CE;
+    margin-top: 30px;
+}
+
+.beranda-prf #kir{
+    font-family: 'playfair';
+    font-size: 30px;
+    margin-top: 250px;
+}
+
+.beranda-prf #kan{
+    font-size: 20px;
+}
+
 /* Berita */
 #old-post-btn{
     background: #3498DB;
@@ -125,6 +167,18 @@ p{
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
+/* Kontak */
+.kontak h3{
+    padding-top: 25px;
+}
+
+.kontak .map iframe{
+    width: 100%;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 /* Bagian footer */
 
