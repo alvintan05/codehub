@@ -136,10 +136,14 @@ p{
 
 .tombol2{
     background: #3498db;
-    margin-left: 550px;
+    margin-left: 560px;
 }
 
 .tombol:hover{
+    background: rgb(43, 119, 170);
+}
+
+.tombol2:hover{
     background: rgb(43, 119, 170);
 }
 
@@ -180,6 +184,11 @@ p{
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+/* galeri */
+.galeri h3{
+    padding-top: 25px;
 }
 
 /* Bagian footer */
