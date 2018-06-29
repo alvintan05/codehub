@@ -250,4 +250,24 @@ p{
 
 #comment-form input, #comment-form textarea {
   border: 1px solid grey;
+  padding-left: 10px;
+}
+
+.komentar {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3498db;
+}
+
+.btn-komen{
+    background: #3498db;
+    margin-bottom: 15px;
+}
+
+.btn-komen:hover{
+    background: rgb(43, 119, 170);
+}
+
+.btn-komen:focus{
+    background: #3498db;
 }
