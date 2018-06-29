@@ -55,11 +55,20 @@
 
 <!-- Konten -->
 <main>
-    <div id="konten" class="container scrollspy">
+    <div id="konten" class="container scrollspy galeri">
         <div class="z-depth-2 card">
-            <div class="container">
-                <h3>Isi Konten nya disini.</h3>
-                <p>disini kontennya</p>
+            <div class="containers">
+                <h3>Gallery</h3>
+                <p>
+                  <table> 
+                      <tr>
+                        <td><img src="images/galeri/kantor-walkot-depok.jpg"width="180" height="180" class="materialboxed"><p>Kantor Walikota Depok</p> </td>
+                        <td><img src="images/galeri/perpustaakan-depok_usqkhi.jpg"width="180" height="180" class="materialboxed"><p>Kantor Walikota Depok</p></td> 
+                         <td><img src="images/galeri/Stadion-Merpati-1-400x240.jpg"width="180" height="180" class="materialboxed"><p>Stadion Sepak Bola</p></td> 
+                        <td><img src="images/galeri/20160919-taman_20160919_154556.jpg" width="180" height="180" class="materialboxed"><p>Taman Balaikota</p></td>
+                      </tr> 
+                  </table>
+                </p>
             </div>
         </div>
     </div>
@@ -125,6 +134,9 @@
         });
         $(document).ready(function(){
             $('.scrollspy').scrollSpy();
+        });
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
         });
     </script>
 </body>
