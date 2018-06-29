@@ -52,11 +52,24 @@
               <div class="containers">
 
                 <span class="card-title" id="title">SMAN 10 Mendapatkan Pembelajaran Cara Tangkal Hoax</span>
-                <p id="author"><i class="tiny material-icons">date_range</i> 16 April 2018 by <a class="black-text" href="profil.html">Harun</a> </p>
-                <br/>
+
+                <div class="row" style="margin-top: 15px;">
+                  <div class="col s1">
+                    <img src="images/circle-harun.png" class="responsive-img circle tooltipped" data-position="left" data-tooltip="Harun" width="45" style="margin: 0;" alt="">
+                  </div>
+                  <div class="col s11" style="padding-top: 4px; margin-left: -15px;">
+                    <p class= "author">
+                      <a class="black-text" style="font-size: 13px;" href="profil.html">Harun</a>
+                    </p>
+                    <p class="author" style="font-size: 12px; color: grey; margint;">
+                      16 April 2018
+                    </p>
+                  </div>
+                </div>
+
                 <img src="images/beranda/berita2.jpg" alt="" class="responsive-img">
                 <br/>
-                            
+
                 <p class="text-berita">
                   <b>diskominfo.depok.go.id</b> – Dinas Komunikasi dan Informatika (Diskominfo) Kota Depok, hari ini mendapat kunjungan dari siswa SMAN 10 Depok.
                   Dalam pertemuan yang dihadiri 48 siswa tersebut, membahas terkait dunia digital yang saat ini berkembang. Termasuk cara menangkal hoax yang beredar di masyarakat.
@@ -177,8 +190,11 @@
           $(".preloader").fadeOut();
         });
         $(document).ready(function(){
-		    $('.scrollspy').scrollSpy();
-		});
+		        $('.scrollspy').scrollSpy();
+		    });
+        $(document).ready(function(){
+            $('.tooltipped').tooltip();
+        });
     </script>
 </body>
 </html>

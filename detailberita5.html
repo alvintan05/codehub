@@ -48,12 +48,25 @@
           <div class="z-depth-2 card">
 
             <div class="card-content black-text" id="konten-berita">
-              
+
               <div class="containers">
 
                 <span class="card-title" id="title">Audiensi BAZNAS Dengan Diskominfo Kota Depok</span>
-                <p id="author"><i class="tiny material-icons">date_range</i> 27 Maret 2018 by <a class="black-text" href="profil.html">Muhammad Musyaffa</a> </p>
-                <br/>
+
+                <div class="row" style="margin-top: 15px;">
+                  <div class="col s1">
+                    <img src="images/circle-musyaffa.jpg" class="responsive-img circle tooltipped" data-position="left" data-tooltip="Muhammad Musyaffa" width="45" style="margin: 0;" alt="">
+                  </div>
+                  <div class="col s11" style="padding-top: 4px; margin-left: -15px;">
+                    <p class= "author">
+                      <a class="black-text" style="font-size: 13px;" href="profil.html">Muhammad Musyaffa</a>
+                    </p>
+                    <p class="author" style="font-size: 12px; color: grey; margint;">
+                      27 Maret 2018
+                    </p>
+                  </div>
+                </div>
+
                 <img src="images/beranda/berita4.jpg" alt="" class="responsive-img">
                 <br/>
 
@@ -155,11 +168,14 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function(){
-          $(".preloader").fadeOut();
+            $(".preloader").fadeOut();
         });
         $(document).ready(function(){
-		    $('.scrollspy').scrollSpy();
-		});
+		        $('.scrollspy').scrollSpy();
+		    });
+        $(document).ready(function(){
+            $('.tooltipped').tooltip();
+        });
     </script>
 </body>
 </html>

@@ -53,9 +53,9 @@
 
                 <span class="card-title" id="title">Pemkot Depok mendapatkan Opini Wajar Tanpa Pengecualian (WTP) dari Badan Pemeriksa Keuangan (BPK) </span>
 
-                <div class="row" style="margin-top: 20px;">
+                <div class="row" style="margin-top: 15px;">
                   <div class="col s1">
-                    <img src="images/circle-alvin.jpg" class="circle responsive-img" width="45" style="margin: 0;" alt="">
+                    <img src="images/circle-alvin.jpg" class="circle responsive-img tooltipped" data-position="left" data-tooltip="Alvin Tandiardi" width="45" style="margin: 0;" alt="">
                   </div>
                   <div class="col s11" style="padding-top: 4px; margin-left: -15px;">
                     <p class= "author">
@@ -198,6 +198,9 @@
         $(document).ready(function(){
 		        $('.scrollspy').scrollSpy();
 		    });
+        $(document).ready(function(){
+            $('.tooltipped').tooltip();
+        });
     </script>
 </body>
 </html>

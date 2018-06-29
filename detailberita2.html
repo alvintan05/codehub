@@ -53,9 +53,9 @@
 
                 <span class="card-title" id="title">Diskominfo Bidang Persandian dan Statistik, Gelar Rakor Se-Jabar</span>
 
-                <div class="row" style="margin-top: 20px;">
+                <div class="row" style="margin-top: 15px;">
                   <div class="col s1">
-                    <img src="images/circle-jodi.jpg" class="responsive-img circle" width="45" style="margin: 0;" alt="">
+                    <img src="images/circle-jodi.jpg" class="responsive-img circle tooltipped" data-position="left" data-tooltip="Jodi Usnanda" width="45" style="margin: 0;" alt="">
                   </div>
                   <div class="col s11" style="padding-top: 4px; margin-left: -15px;">
                     <p class= "author">
@@ -175,11 +175,14 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function(){
-          $(".preloader").fadeOut();
+            $(".preloader").fadeOut();
         });
         $(document).ready(function(){
-		    $('.scrollspy').scrollSpy();
-		});
+		        $('.scrollspy').scrollSpy();
+		    });
+        $(document).ready(function(){
+            $('.tooltipped').tooltip();
+        });
     </script>
 </body>
 </html>
